@@ -25,7 +25,7 @@ p {
     color: blue;
 }
 /*
-Challenge
+Challenge, The p element and the .highlight class both apply to the same paragraph. The p element has a score of 0,0,1 while the .highlight has a score of 0,1,0, therefore .highlight class wins becuase class selectors have a higher specificity than elements.  
 */
 
 p {
@@ -36,7 +36,7 @@ p {
     color: blue;
 }
 
-img {
+#profile-photo {
     width: 180px;
     height: 180px;
     border-radius: 50%;
