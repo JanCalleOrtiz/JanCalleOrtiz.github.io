@@ -35,3 +35,12 @@ p {
 .highlight {
     color: blue;
 }
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
