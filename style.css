@@ -44,3 +44,34 @@ p {
     display: block;
     margin: 20px auto;
 }
+
+/* Flexbox */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.25rem 5%;
+}
+
+.site-brand h1 {
+    text-align: left;
+    margin: 0; 
+}
+
+.site-brand p {
+    margin: 0.5rem 0 0;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.site-nav a {
+    text-decoration: none;
+    padding: 0.5rem;
+}
