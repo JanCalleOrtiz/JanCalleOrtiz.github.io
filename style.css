@@ -75,3 +75,47 @@ p {
     text-decoration: none;
     padding: 0.5rem;
 }
+
+/* Mobile layout */
+
+@media (max-width: 768px){
+
+    /* makes the header vertically */
+    .site-header{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 5%;
+    }
+
+    /* Navigation will also be vertically */
+    .site-nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    /* Changed the projects into one column */
+
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .project-card img {
+        max-width: 100%;
+    }
+}
+        
+
+    
